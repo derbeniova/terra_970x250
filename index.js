@@ -3,7 +3,7 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"index_atlas_1", frames: [[0,0,1456,375]]}
+		{name:"index_atlas_1", frames: [[0,0,1262,325]]}
 ];
 
 
@@ -470,13 +470,13 @@ if (reversed == null) { reversed = false; }
 
 	// Слой_1
 	this.instance = new lib.terra_bg_970();
-	this.instance.setTransform(-485,-125,0.6667,0.6666);
+	this.instance.setTransform(-631,-163,1,0.9999);
 
 	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.bg_pic, new cjs.Rectangle(-485,-125,970.7,250), null);
+}).prototype = getMCSymbolPrototype(lib.bg_pic, new cjs.Rectangle(-631,-163,1262,325), null);
 
 
 (lib.bg_blue = function(mode,startPosition,loop,reversed) {
@@ -580,20 +580,20 @@ if (reversed == null) { reversed = false; }
 	// gazprom_logo
 	this.logo = new lib.gazprom_logo();
 	this.logo.name = "logo";
-	this.logo.setTransform(41.9,8.3,1.1734,1.173,0,0,0,32.2,15.5);
+	this.logo.setTransform(39.5,4.2,1.1734,1.173,0,0,0,32.2,15.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo).wait(1));
 
 	// gazprom_logo_bg
 	this.bg_blue = new lib.bg_blue();
 	this.bg_blue.name = "bg_blue";
-	this.bg_blue.setTransform(100.1,22.4,0.1196,0.232,0,0,0,970.5,185.3);
+	this.bg_blue.setTransform(96.8,22.4,0.1125,0.232,0,0,0,970.4,185.3);
 
 	this.timeline.addTween(cjs.Tween.get(this.bg_blue).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.logo, new cjs.Rectangle(-15.9,-20.6,116,58), null);
+}).prototype = getMCSymbolPrototype(lib.logo, new cjs.Rectangle(-12.3,-20.6,109.1,58), null);
 
 
 // stage content:
@@ -637,8 +637,8 @@ if (reversed == null) { reversed = false; }
 		
 		
 			
-			.to(root.logo.bg_blue, 1.2, {scaleX:"1", scaleY:"1", y:"-=14", ease:"Power3.easeOut"}, "12")
-			.to(root.logo.logo, 1.2, {scaleX:"3", scaleY:"3", x: "-=420", y: "-=67", ease:"Power3.easeOut"}, "12")
+			.to(root.logo.bg_blue, 1.2, {scaleX:"1.5", scaleY:"1.5", y:"-=14", ease:"Power3.easeOut"}, "12")
+			.to(root.logo.logo, 1.2, {scaleX:"2.5", scaleY:"2.5", x: "-=510", y: "-=77", ease:"Power3.easeOut"}, "12")
 			.from(root.bg_blue2, 0.3, {alpha:0.0, ease:"Power1.easeOut"}, "17.7")
 		
 		
@@ -672,14 +672,14 @@ if (reversed == null) { reversed = false; }
 	// logo
 	this.logo = new lib.logo();
 	this.logo.name = "logo";
-	this.logo.setTransform(970.05,210.1,1,0.9998,0,0,0,100.1,33.2);
+	this.logo.setTransform(969.55,203.45,0.8621,0.8619,0,0,0,96.2,30.8);
 
 	this.timeline.addTween(cjs.Tween.get(this.logo).wait(1));
 
 	// tx2
 	this.tx2 = new lib.tx2();
 	this.tx2.name = "tx2";
-	this.tx2.setTransform(82.1,39.9,1,0.9998,0,0,0,52.6,20.9);
+	this.tx2.setTransform(82.1,49.9,1,0.9998,0,0,0,52.6,20.9);
 
 	this.timeline.addTween(cjs.Tween.get(this.tx2).wait(1));
 
@@ -693,7 +693,7 @@ if (reversed == null) { reversed = false; }
 	// ligal
 	this.ligal = new lib.ligal();
 	this.ligal.name = "ligal";
-	this.ligal.setTransform(228,227.75,0.8896,0.8891,0,0,0,222.2,8.2);
+	this.ligal.setTransform(228,236.55,0.8896,0.8891,0,0,0,222.2,8.2);
 	this.ligal.alpha = 0.9219;
 
 	this.timeline.addTween(cjs.Tween.get(this.ligal).wait(1));
@@ -701,13 +701,13 @@ if (reversed == null) { reversed = false; }
 	// Слой_9 (mask)
 	var mask = new cjs.Shape();
 	mask._off = true;
-	mask.graphics.p("ApdQTIAA5IMBCcAAAIAAZIg");
-	mask.setTransform(364.6789,104.3488);
+	mask.graphics.p("EghrAMlIAA5JMBDXAAAIAAZJg");
+	mask.setTransform(490.825,128.25);
 
 	// tx1
 	this.tx1 = new lib.tx1();
 	this.tx1.name = "tx1";
-	this.tx1.setTransform(515.3,115.95,0.7917,0.7912,0,0,0,252.7,86.2);
+	this.tx1.setTransform(485.05,135.95,0.7917,0.7912,0,0,0,252.7,86.2);
 
 	var maskedShapeInstanceList = [this.tx1];
 
@@ -727,7 +727,7 @@ if (reversed == null) { reversed = false; }
 	// terra_bg_970_jpg
 	this.bg_pic = new lib.bg_pic();
 	this.bg_pic.name = "bg_pic";
-	this.bg_pic.setTransform(485,125);
+	this.bg_pic.setTransform(485.15,125.5,0.7686,0.7692,0,0,0,0.2,0.1);
 
 	this.timeline.addTween(cjs.Tween.get(this.bg_pic).wait(1));
 
